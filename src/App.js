@@ -1,4 +1,5 @@
 import './App.css';
+import Button from './components/Button';
 import TextInput from './components/TextInput';
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
         <div>
           <TextInput name="upper text" />
           <TextInput name="lower text" />
+          <Button name="change pic"/>
+          <Button name="load pic"/>
+          <Button name="generate meme"/>
         </div>
       </main>
     </div>
