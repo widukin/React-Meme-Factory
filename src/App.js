@@ -1,5 +1,6 @@
 import './App.css';
 import Button from './components/Button';
+import Meme from './components/Meme';
 import ImageSlider from './components/ImageSlider';
 import TextInput from './components/TextInput';
 
@@ -21,9 +22,12 @@ function App() {
           <Button name="generate meme"/>
           
         </div>
-        
+        <div className="image-container">
+          <Meme name="First Meme"/>
+          <ImageSlider />
+        </div>
       </main>
-      <ImageSlider />
+      
     </div>
   );
 }
