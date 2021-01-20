@@ -20,6 +20,10 @@ main {
   background-color: #e8f0ff;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+}
+
+.image-container {
+  margin: 5vw;
+  max-width: 95vw;
 }
