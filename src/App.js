@@ -1,5 +1,6 @@
 import './App.css';
 import Button from './components/Button';
+import ImageSlider from './components/ImageSlider';
 import TextInput from './components/TextInput';
 
 function App() {
@@ -18,8 +19,11 @@ function App() {
           <Button name="change pic"/>
           <Button name="load pic"/>
           <Button name="generate meme"/>
+          
         </div>
+        
       </main>
+      <ImageSlider />
     </div>
   );
 }
